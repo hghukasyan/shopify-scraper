@@ -42,7 +42,7 @@ async function scrapeShopifyProductPage(url) {
 }
 
 // Example usage
-const url = 'https://maguireshoes.com/collections/sunglasses/products/bai-denim-sunglasses';
+const url = 'url to the product page';
 
 scrapeShopifyProductPage(url).then(productData => {
   console.log(productData);
