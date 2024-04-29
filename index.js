@@ -30,7 +30,6 @@ async function scrapeShopifyProductPage(url) {
     const images = [];
 
     document.querySelectorAll('.js-product-media img').forEach(img => {
-        console.log(img.src);
         images.push(img.src);
     });
 
